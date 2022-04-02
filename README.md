@@ -1,1 +1,1 @@
-# automated-placement-portal
+# Automated placement portal of NIT Srinagar
