@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family :'Roboto', sans-serif;
+}
+body{
+    font-size: 10px;
+}
+@media screen and (max-width: 768px){
+    body{
+        font-size: 8px;
+    }
+}
+
+// color variables
+$black : #22070D;
+$white : #ffffff;
+$blue : #006EB8;
+$light-blue : #A4D5F4;
+
+// common flex classes used
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: space-around;
+}

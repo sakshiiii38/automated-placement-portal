@@ -1,0 +1,15 @@
+.login-forms-container{
+    width : calc(100vw - 450px ); 
+}
+
+@media screen and (max-width: 900px){
+    .login-forms-container{
+        width : calc(100vw - 300px ); 
+    }
+}
+
+@media screen and (max-width: 700px){
+    .login-forms-container{
+        width : 100vw; 
+    }
+}
