@@ -25,5 +25,10 @@ app.get('/', (req,res)=>{
     res.send("index")
 })
 
+app.get('/hi', (req,res)=>{
+    res.send("index")
+})
 
-app.listen(3000)
+
+app.listen(3000  ) 
+// comment
