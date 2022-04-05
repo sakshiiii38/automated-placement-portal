@@ -9,6 +9,9 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import useWindowDimensions from '../../custom hooks/useWindowDimensions';
 import './LoginForms.scss'
+import StudentLogin from './StudentLogin';
+import RecruiterLogin from './RecruiterLogin';
+import CoordinatorLogin from './CoordinatorLogin';
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -82,13 +85,13 @@ export default function LoginForms() {
                 onChangeIndex={handleChangeIndex}
             >
                 <TabPanel value={value} index={0} dir={theme.direction}>
-                    Student Form
+                    <StudentLogin />
                 </TabPanel>
                 <TabPanel value={value} index={1} dir={theme.direction}>
-                    Recruiter Form
+                    <RecruiterLogin />
                 </TabPanel>
                 <TabPanel value={value} index={2} dir={theme.direction}>
-                    CRC Form
+                    <CoordinatorLogin />
                 </TabPanel>
             </SwipeableViews>
             </Box>

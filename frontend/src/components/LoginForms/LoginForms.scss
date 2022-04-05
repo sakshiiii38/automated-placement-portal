@@ -1,6 +1,10 @@
 .login-forms-container{
     width : calc(100vw - 450px ); 
 }
+.login-form{
+    width : 100%;
+    border : 2px solid black;
+}
 
 @media screen and (max-width: 900px){
     .login-forms-container{
