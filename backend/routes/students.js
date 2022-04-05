@@ -1,9 +1,9 @@
 const express = require("express")
 const router = express.Router()
-const database = require("../db/database")
 
-router.get("/",(req,res)=>{ 
-    res.send(database.posts)
+//getting students details
+router.get("/:id",(req,res)=>{ 
+    res.send(req.params.id)
 })
 //for going to register page
 router.get("/register",(req,res)=>{
