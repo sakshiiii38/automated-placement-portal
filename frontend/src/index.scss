@@ -40,7 +40,7 @@ $light-blue : #A4D5F4;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: space-around;
+    align-items: center;
 }
 
 // common text classes
@@ -48,7 +48,7 @@ $light-blue : #A4D5F4;
     color:red;
     font-weight: bold;
     &:hover{
-        color: #54479e;
+        color: #9e4747;
         cursor: pointer;
     }
 }

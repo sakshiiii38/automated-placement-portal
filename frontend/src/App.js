@@ -1,10 +1,12 @@
 import { 
-  LoginPage
+  LoginPage,
+  StudentDashboardPage,
 } from './pages/index.js';
 function App() {
   return (
     <div className="App">
-      <LoginPage />
+      {/* <LoginPage /> */}
+      <StudentDashboardPage />
     </div>
   );
 }
