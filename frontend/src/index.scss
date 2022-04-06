@@ -42,3 +42,13 @@ $light-blue : #A4D5F4;
     justify-content: space-around;
     align-items: space-around;
 }
+
+// common text classes
+.bold-red{
+    color:red;
+    font-weight: bold;
+    &:hover{
+        color: #54479e;
+        cursor: pointer;
+    }
+}

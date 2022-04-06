@@ -85,13 +85,13 @@ export default function LoginForms() {
                 onChangeIndex={handleChangeIndex}
             >
                 <TabPanel value={value} index={0} dir={theme.direction}>
-                    <StudentLogin />
+                    <StudentLogin width={width} isCRC={false} />
                 </TabPanel>
                 <TabPanel value={value} index={1} dir={theme.direction}>
                     <RecruiterLogin />
                 </TabPanel>
                 <TabPanel value={value} index={2} dir={theme.direction}>
-                    <CoordinatorLogin />
+                    <StudentLogin width={width} isCRC={true}/>
                 </TabPanel>
             </SwipeableViews>
             </Box>
